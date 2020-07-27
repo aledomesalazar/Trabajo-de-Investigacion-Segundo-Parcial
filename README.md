@@ -75,3 +75,4 @@ La placa carece de botón de encendido y apagado, con lo que la energía le lleg
 - S.O. soportados (Linux vs Windows/OS X):
 La Raspberry Pi está diseñada para ejecutar el sistema operativo GNU/Linux, S.O. de código abierto, a diferencia de los sistemas operativos de código oculto como Microsoft Windows o Apple OS X. Esto quiere decir que es posible descargar el código fuente del sistema operativo por completo y hacer los cambios que uno desee. Nada es ocultado, y todos los cambios hechos están a la vista del público.
 
+Actualmente existen 2 modelos diferentes de Raspberry Pi. 
