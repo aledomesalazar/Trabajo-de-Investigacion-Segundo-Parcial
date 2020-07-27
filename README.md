@@ -100,6 +100,8 @@ Los sistemas operativos disponibles son:
 - OpenELEC
 - Windows 10
 
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.04.28.jpeg)
+
 **Figura 1**
 
 Actualmente existen 2 modelos diferentes de Raspberry Pi. 
@@ -114,6 +116,9 @@ Modelo B
 - Tiene dos puertos USB y controlador Ethernet 10/100
 - Tiene 512MB de RAM
 
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.17.jpeg)
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.21.jpeg)
+
 **Figura 2**
 
 **4.2 Python**
@@ -121,6 +126,9 @@ Modelo B
 Este lenguaje de programación fue creado en 1991 por Guido van Rossum en CWI - Holanda, con el propósito de análisis de datos. En él se puede realizar múltiples operaciones matemáticas entre variables, listas, arreglos, matrices, entre otros. Es multiparadigma, enfocándose en la programación estructurada, dinámica, funcional y orientada a objetos; además es adaptable en cualquier plataforma. Empresas o instituciones lo han utilizado  aplicaciones como Facebook, Google, Amazon, NASA e IBM.
 
 Es el lenguaje recomendado para aprender a programar debido a que se maneja con una sintaxis simple y entendible, caracterizándose por ser un lenguaje de alto nivel, es decir, lenguaje más acercado a la comunicación con el programador. Es un lenguaje interpretado, es decir, no requiere compilar, ni enlazar a comparación de otros lenguajes, permitiendo que las variables obtengan un tipado dinámico. Gracias a su gran capacidad de manejo de datos, tendencias como la Inteligencia Artificial, ciencia de datos e internet de las cosas han utilizado esta herramienta para su progresivo desarrollo.
+
+![https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.25.jpeg]
+**Figura 3**
 
 *4.2.1. Conceptos básicos*
 
@@ -159,6 +167,10 @@ Es el medio en la cual los valores de las variables se asignan cuando el usuario
 
 Se definen como un conjunto de instrucciones que se ejecutan cuando son llamadas desde parte principal del programa. Su ventaja es especializar ciertas instrucciones mejorando su optimización ya que se puede reutilizar en otras partes del código. Para definirlas se declaran con def(), donde sus argumentos van en el paréntesis. Después de ello, solo falta invocarlas.
 
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.29.jpeg)
+
+**Figura 4**
+
 *4.2.6. Librerías*
 
 En informática, una biblioteca o, llamada por vicio del lenguaje librería es un conjunto de implementaciones funcionales, codificadas en un lenguaje de programación, que ofrece una interfaz bien definida para la funcionalidad que se invoca.
@@ -169,13 +181,19 @@ En informática, una biblioteca o, llamada por vicio del lenguaje librería es u
 
 Es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi.
 
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.33.jpeg)
+
+**Figura 5**
+
 **Imagen 3**
 
 Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo BCM.
 - En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
 - En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
 
-**Imagen 4**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.37.jpeg)
+
+**Figura 6**
 
 *4.3.2. Librería GPIO*
 
@@ -183,18 +201,25 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 Esta plataforma es un simulador online que permite simular el comportamiento de una Raspberry Pi utilizado el lenguaje de programación Python. Primero se debe ingresar al siguiente link https://create.withcode.uk/ para poder utilizar esta plataforma.
 
-**Figura**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.42.jpeg)
+
+**Figura 7**
 
 Una vez ingresado el link en el navegador, aparecerá el título de la página entre corchetes, unas dos líneas de código y dos botones color verde en la parte inferior derecha de la página. La ventaja de este simulador, además de ejecutar cualquier archivo en Python, es la simulación en un entorno del sistema operativo Raspian, solo que este indica la entrada y salida de señales. Es ideal para la prueba de proyectos ya que el mismo te notificará los errores de la conexión, dado que si se realiza una conexión incorrecta en los pines en una Raspberry dísica se puede llegar a quemar el procesador.
 
 Digite el código descrito anteriormente en la plataforma y mande a ejecutar el código. Para poder ejecutar el programa se debe hacer clic en el icono de play que se encuentra en la parte inferior derecha de la página. Si se desea añadir archivos, selecciona el ícono de (+). El resultado se desplegará tanto en modo consola como en los pines GPIO.
 
-**Figura ede ejecución**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.46.jpeg)
+
+**Figura 8**
 
 **5. DIAGRAMAS**
 
 Un ejemplo sencillo de la implementación de la librería GPIO para la ejecuciób del programa en Python.
-**Imagen 5**
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.51.jpeg)
+
+**Figura 9**
 
 **6. LISTA DE COMPONENTES**
 - Raspberry Pi
@@ -211,63 +236,91 @@ Debido a que no se cuenta con el sistema operativo de Raspbian donde podamos sim
 
 En nuestro código implementado presentado a continuación detallaremos el comportamiento de cada línea.
 
-**Figura 6**
-
-1. En nuestra primera línea de código importamos la librería GPIO, está librería es la que nos permite utilizar las funciones para controlar los pines de nuestra Raspberry Pi. Además, se debe importar la librería time, esta nos permite controlar el tiempo y la frecuencia con la que el LED se prende y apaga.
-
-**Figura 7**
-
-2. Esta línea de código presentada, la función setmode nos permite definir los pines de la Raspberry Pi, es decir que pines son los pines de reciben los datos y cuáles los que envían.
-
-**Figura 8**
-
-3. Nuestra cuarta línea de código, es donde vamos a definir a un pin cualquiera como entrada o salida con la función setup, en este caso decimos que el pin 7 va a ser definida como nuestra salida.
-
-**Figura 9**
-
-4. Nuestra quinta línea es donde definimos la función setup que sirve para definir a mi pin si será entrada o salida. Esta vez lo hemos definido al pin 5 como entrada.
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.56.jpeg)
 
 **Figura 10**
 
-5. Nuestro bucle While es donde vamos a manejar todo el control sobre nuestros pines ya antes definidos, decimos que mientras sea verdad se ejecute nuestro código, es decir en todo momento estará esté actuando.
+1. En nuestra primera línea de código importamos la librería GPIO, está librería es la que nos permite utilizar las funciones para controlar los pines de nuestra Raspberry Pi. Además, se debe importar la librería time, esta nos permite controlar el tiempo y la frecuencia con la que el LED se prende y apaga.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.01.jpeg)
 
 **Figura 11**
 
-6. En la séptima y octava línea de código usamos la función output indicando el pin que habíamos seleccionado como salida anteriormente,poniendo True para que nuestra salida envíe la información correspondiente en el tiempo definido por la función time.
+2. Esta línea de código presentada, la función setmode nos permite definir los pines de la Raspberry Pi, es decir que pines son los pines de reciben los datos y cuáles los que envían.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.05.jpeg)
 
 **Figura 12**
 
-7. En la novena y décima Similar a la anterior situación,En la  línea de código usamos la función output indicando el pin que habíamos seleccionado como salida anteriormente,poniendo False para enviar otra información cuando se cumpla esta condición en el tiempo ya definido por nuestra función time.
+3. Nuestra cuarta línea de código, es donde vamos a definir a un pin cualquiera como entrada o salida con la función setup, en este caso decimos que el pin 7 va a ser definida como nuestra salida.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.10.jpeg)
 
 **Figura 13**
 
-8. Después de haber enviado la información cualquiera mediante nuestro pin número 7 considerado como salida, necesitamos que esta información sea recibida por alguien, por lo tanto esta información asignamos a una variable, que en nuestro caso es “a”, es decir es la variable  quien recibe la información enviada por el pin 7, por lo tanto necesitamos un pin que reciba la información, al cual hemos denominado como el pin 5 que mientras sea Verdadero recibirá la información enviada correspondiente.
+4. Nuestra quinta línea es donde definimos la función setup que sirve para definir a mi pin si será entrada o salida. Esta vez lo hemos definido al pin 5 como entrada.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.13.jpeg)
 
 **Figura 14**
 
+5. Nuestro bucle While es donde vamos a manejar todo el control sobre nuestros pines ya antes definidos, decimos que mientras sea verdad se ejecute nuestro código, es decir en todo momento estará esté actuando.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.17.jpeg)
+
+**Figura 15**
+
+6. En la séptima y octava línea de código usamos la función output indicando el pin que habíamos seleccionado como salida anteriormente,poniendo True para que nuestra salida envíe la información correspondiente en el tiempo definido por la función time.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.21.jpeg)
+
+**Figura 16**
+
+7. En la novena y décima Similar a la anterior situación. En la línea de código usamos la función output indicando el pin que habíamos seleccionado como salida anteriormente,poniendo False para enviar otra información cuando se cumpla esta condición en el tiempo ya definido por nuestra función time.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.24.jpeg)
+
+**Figura 17**
+
+8. Después de haber enviado la información cualquiera mediante nuestro pin número 7 considerado como salida, necesitamos que esta información sea recibida por alguien, por lo tanto esta información asignamos a una variable, que en nuestro caso es “a”, es decir es la variable  quien recibe la información enviada por el pin 7, por lo tanto necesitamos un pin que reciba la información, al cual hemos denominado como el pin 5 que mientras sea Verdadero recibirá la información enviada correspondiente.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.28.jpeg)
+
+**Figura 18**
+
 9. Por último, mostraremos por pantalla la información recibida por el pin 5, cómo fue validado por verdadero(True),quiere decir que cuando cumpla, este nos imprimirá un 1 por pantalla,caso contrario 0.
 
- **Figura 15**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.32.jpeg)
+
+**Figura 19**
  
- 10. Ejecute el código en la plataforma por medio del boton de flecha verde que se encuentra en la parte inferior de la página.
+10. Ejecute el código en la plataforma por medio del boton de flecha verde que se encuentra en la parte inferior de la página.
+
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.36.jpeg)
+
+**Figura 20**
  
- **Figura 16**
+11. La ejecución del código debe visualizarse tal y como se muestra en la imagen a continuación.
  
- 11. La ejecución del código debe visualizarse tal y como se muestra en la imagen a continuación.
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.39.jpeg)
  
- **Figura 17**
+**Figura 21**
  
 En la imagen anterior se observa que el Led correspondiente al pin 7 se prende y se apaga cada segundo, mientras que el pin 5 recibe un 0 lógico cuando no se pulsa el botón blanco o pulsador del respectivo pin, o también recibe un 1 lógico cuando el botón se encuentra pulsado. El valor que ingresa en el pin 5 es impreso en la consola, a su vez que es enviado a la Raspberry Pi.
 
 Cuando el pulsador correspondiente al pin 5 se encuentra sin pulsar el valor que se imprime en la consola es 0 lógico, tal y como se muestra en la imagen a continuación.
 
-**Figura 18**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.44.jpeg)
+
+**Figura 22**
 
 Cuando el pulsador correspondiente al pin 5 se encuentra pulsado el valor que se imprime en la consola es 1 lógico, tal y como se muestra en la imagen a continuación.
 
 Para detener la simulación solo se debe presionar en el cuadrado grande y rojo que se encuentra en la parte inferior derecha de la página.
 
-**Figura 19**
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.50.48.jpeg)
+
+**Figura 23**
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
@@ -288,6 +341,7 @@ Para poder ejecutar de manera eficiente y sin ningún tipo de inconveniente se d
 - Previamente a utilizar la Raspberry Pi, se recomienda aprender el lenguaje de programación Python utilizando los varios recursos encontrados en el internet.
 
 **11. CRONOGRAMA**
+![]()
 
 **12. BIBLIOGRAFÍA**
 
