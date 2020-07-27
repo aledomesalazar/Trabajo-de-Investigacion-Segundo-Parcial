@@ -335,14 +335,13 @@ Para poder ejecutar de manera eficiente y sin ningún tipo de inconveniente se d
 - La librería GPIO nos permitió manejar la información en los pines de la Raspberry Pi logrando controlar cualquier actuador externo.
 - Se concluye que se necesita tener conocimientos básicos de programación para un mejor entendimiento de los códigos, además saber claramente el funcionamiento de los atributos y funciones que posee la librería GPIO. 
 
-
 **10. RECOMENDACIONES**
 - Se recomienda saber la numeración y ubicación de los pines de la Raspberry Pi para asignar correctamente que pines utilizar como transmisores o receptores de información.
 - La librería GPIO es una librería muy amplia y necesaria cuando se requiere utilizar los pines de la Raspberry Pi, por lo tanto se recomienda investigar más acerca de los atributos y funciones que contiene esta librería.
 - Previamente a utilizar la Raspberry Pi, se recomienda aprender el lenguaje de programación Python utilizando los varios recursos encontrados en el internet.
 
 **11. CRONOGRAMA**
-![]()
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2013.26.08.jpeg)
 
 **12. BIBLIOGRAFÍA**
 
