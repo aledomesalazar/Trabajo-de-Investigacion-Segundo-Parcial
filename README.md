@@ -341,6 +341,7 @@ Para poder ejecutar de manera eficiente y sin ningún tipo de inconveniente se d
 - Previamente a utilizar la Raspberry Pi, se recomienda aprender el lenguaje de programación Python utilizando los varios recursos encontrados en el internet.
 
 **11. CRONOGRAMA**
+
 ![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2013.26.08.jpeg)
 
 **12. BIBLIOGRAFÍA**
