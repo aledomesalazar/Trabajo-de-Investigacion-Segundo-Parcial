@@ -179,6 +179,17 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 *4.3.2. Librería GPIO*
 
+**4.4 Create.withcode.uk**
+
+Esta plataforma es un simulador online que permite simular el comportamiento de una Raspberry Pi utilizado el lenguaje de programación Python. Primero se debe ingresar al siguiente link https://create.withcode.uk/ para poder utilizar esta plataforma.
+
+**Figura**
+
+Una vez ingresado el link en el navegador, aparecerá el título de la página entre corchetes, unas dos líneas de código y dos botones color verde en la parte inferior derecha de la página. La ventaja de este simulador, además de ejecutar cualquier archivo en Python, es la simulación en un entorno del sistema operativo Raspian, solo que este indica la entrada y salida de señales. Es ideal para la prueba de proyectos ya que el mismo te notificará los errores de la conexión, dado que si se realiza una conexión incorrecta en los pines en una Raspberry dísica se puede llegar a quemar el procesador.
+
+Digite el código descrito anteriormente en la plataforma y mande a ejecutar el código. Para poder ejecutar el programa se debe hacer clic en el icono de play que se encuentra en la parte inferior derecha de la página. Si se desea añadir archivos, selecciona el ícono de (+). El resultado se desplegará tanto en modo consola como en los pines GPIO.
+
+**Figura ede ejecución**
 
 **5. DIAGRAMAS**
 
@@ -238,6 +249,26 @@ En nuestro código implementado presentado a continuación detallaremos el compo
 
  **Figura 15**
  
+ 10. Ejecute el código en la plataforma por medio del boton de flecha verde que se encuentra en la parte inferior de la página.
+ 
+ **Figura 16**
+ 
+ 11. La ejecución del código debe visualizarse tal y como se muestra en la imagen a continuación.
+ 
+ **Figura 17**
+ 
+En la imagen anterior se observa que el Led correspondiente al pin 7 se prende y se apaga cada segundo, mientras que el pin 5 recibe un 0 lógico cuando no se pulsa el botón blanco o pulsador del respectivo pin, o también recibe un 1 lógico cuando el botón se encuentra pulsado. El valor que ingresa en el pin 5 es impreso en la consola, a su vez que es enviado a la Raspberry Pi.
+
+Cuando el pulsador correspondiente al pin 5 se encuentra sin pulsar el valor que se imprime en la consola es 0 lógico, tal y como se muestra en la imagen a continuación.
+
+**Figura 18**
+
+Cuando el pulsador correspondiente al pin 5 se encuentra pulsado el valor que se imprime en la consola es 1 lógico, tal y como se muestra en la imagen a continuación.
+
+Para detener la simulación solo se debe presionar en el cuadrado grande y rojo que se encuentra en la parte inferior derecha de la página.
+
+**Figura 19**
+
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
 Para poder ejecutar de manera eficiente y sin ningún tipo de inconveniente se debe tener los siguientes componentes.
