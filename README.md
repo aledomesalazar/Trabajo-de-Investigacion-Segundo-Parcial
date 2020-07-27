@@ -127,7 +127,8 @@ Este lenguaje de programación fue creado en 1991 por Guido van Rossum en CWI - 
 
 Es el lenguaje recomendado para aprender a programar debido a que se maneja con una sintaxis simple y entendible, caracterizándose por ser un lenguaje de alto nivel, es decir, lenguaje más acercado a la comunicación con el programador. Es un lenguaje interpretado, es decir, no requiere compilar, ni enlazar a comparación de otros lenguajes, permitiendo que las variables obtengan un tipado dinámico. Gracias a su gran capacidad de manejo de datos, tendencias como la Inteligencia Artificial, ciencia de datos e internet de las cosas han utilizado esta herramienta para su progresivo desarrollo.
 
-![https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.25.jpeg]
+![](https://github.com/aledomesalazar/Trabajo-de-Investigacion-Segundo-Parcial/blob/master/img/WhatsApp%20Image%202020-07-27%20at%2012.49.25.jpeg)
+
 **Figura 3**
 
 *4.2.1. Conceptos básicos*
